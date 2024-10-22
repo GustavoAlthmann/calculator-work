@@ -25,7 +25,6 @@ app.get("/", (req, res) => {
         <title>Tabuada</title>
     </head>
     <body>
-        <h1>Tabuada Online</h1>
         ${tabelaHTML}
         <form method="GET" action="/">
             <label for="tabuada">Número da tabuada:</label>
